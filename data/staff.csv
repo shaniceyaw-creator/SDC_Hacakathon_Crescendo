@@ -1,0 +1,13 @@
+Staff_ID,Display_Name,Role,Primary_Skill,Max_Weekly_Hours,Active,Employment_Type,eOT_Eligible
+STF-001,Aina Faris,Logistics Crew,Furniture_Setup,40,True,FullTime,True
+STF-002,Ben Lee,Logistics Crew,Stage_Setup,40,True,FullTime,True
+STF-003,Chen Iman,Logistics Crew,Transport_Logistics,40,True,FullTime,False
+STF-004,Dev Tan,Logistics Crew,Tentage_Setup,40,True,FullTime,True
+STF-005,Elise Noor,Logistics Crew,Furniture_Setup,40,True,FullTime,True
+STF-006,Farid Ong,Logistics Crew,Load_In_Out,40,True,FullTime,True
+STF-007,Grace Amir,Event Coordinator,Banquet_Coordination,40,True,FullTime,False
+STF-008,Haris Lim,Event Coordinator,Vendor_Coordination,40,True,FullTime,True
+STF-009,Iman Chen,Event Coordinator,Client_Protocol,40,True,FullTime,True
+STF-010,Jamie Rahman,AV Technician,Sound_Operations,40,True,FullTime,True
+STF-011,Kai Devi,AV Technician,Lighting_Operations,40,True,FullTime,False
+STF-012,Lina Wong,Safety Coordinator,Crowd_Safety,40,True,FullTime,False
