@@ -25,10 +25,6 @@
 | Slide Deck | **TO COMPLETE: add the final shareable slide-deck link** |
 | Demo Video | **TO COMPLETE: add the final narrated demonstration link** |
 
-The Replit workspace URL retains its original project name. The current website
-is **React and TypeScript, not Streamlit**, and its public application path is
-`/opusevents/`.
-
 ## Overview
 
 ### Problem
@@ -277,29 +273,11 @@ between the provisioned Pod and the submitted model.
 
 | Name | Role / contribution | GitHub |
 | --- | --- | --- |
-| **Yaw En Qi** | **Team Leader & Project Manager** — Project coordination, system architecture design, SDG alignment, and overall submission oversight. |
-| **Kong Aik Hang** | **Lead Developer & Systems Engineer** — Full-stack system coding (React 19 frontend, Express 5 API server, Python scikit-learn ML engine, PostgreSQL database) and Replit deployment. |
+| **Yaw En Qi** | **Team Leader & Project Manager** — Project coordination, system architecture design, frontend design, model training, Video demonstration filming and overall submission |
+| **Kong Aik Hang** | **Lead Developer & Systems Engineer** — Full-stack system coding mostly focus on backend, technical software implement and Replit deployment. |
 | **Lee Hong Lek** | **Media & Pitch Specialist** — Product demonstration video recording, screen walkthroughs, voiceover narration, and video post-production editing. |
 | **Ashley Cheah Wen Xi** | **Technical Writer & Documentation Lead** — Preliminary proposal report writing, technical declaration proofing, submission formatting, and README documentation. |
 | **Harry Loo Hoe Yin** | **Compliance & Documentation Specialist** — Technical declaration proofing, report submission verification, compliance auditing, and README documentation. |
-
-Member contributions have not been invented. Complete this table before the
-final submission.
-
-## Submission Checklist
-
-- [x] Team name, domain, SDG, university and member count supplied.
-- [ ] All five members' names and actual contributions added.
-- [ ] Final slide-deck link added.
-- [ ] Final narrated demonstration link added.
-- [x] Replit proof-of-use PDF supplied.
-- [x] RunPod proof-of-use PDF supplied.
-- [ ] Preliminary submission PDF added: `submission/SDC2026_Crescendo_Preliminary.pdf`.
-- [ ] Technical declaration PDF added: `submission/SDC2026_Crescendo_TechDeclaration.pdf`.
-- [ ] Complete application source uploaded, including the correct runtime model path.
-- [ ] Setup verified after configuring the required private services.
-- [ ] Public files/screenshots reviewed for sensitive information.
-- [ ] License metadata confirmed and made consistent.
 
 ## License
 
