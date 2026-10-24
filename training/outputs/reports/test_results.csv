@@ -1,0 +1,13 @@
+Target,Model,Unit,Test_MAE,Average_Actual,Error_%_of_average
+Event_Coordinators,Random Forest,count,0.11,2.0,5.5
+AV_Technicians,Random Forest,count,0.14,1.9,7.4
+Logistics_Crew,Decision Tree,count,0.72,7.0,10.3
+Safety_Officers,Decision Tree,count,0.07,1.2,5.8
+Chairs,Random Forest,count,14.97,195.0,7.7
+Tables,Random Forest,count,2.1,28.8,7.3
+Canopy_Tents,Decision Tree,count,0.22,2.8,7.9
+Sound_Systems,Decision Tree,count,0.0,1.6,0.0
+Stage_Platforms,Linear Regression,count,0.79,6.6,12.0
+LED_Screens,Linear Regression,count,0.53,1.2,44.2
+Total_Cost_RM,Linear Regression,RM,1560.0,12641.0,12.3
+Selling_Price_RM,Linear Regression,RM,2638.0,18058.0,14.6

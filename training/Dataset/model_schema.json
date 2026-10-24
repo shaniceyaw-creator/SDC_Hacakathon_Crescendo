@@ -1,0 +1,73 @@
+{
+  "resource_features": [
+    "Event_Type",
+    "Guest_Count",
+    "Month",
+    "Is_Weekend",
+    "Start_Hour",
+    "Duration_Hours",
+    "Is_Peak",
+    "Venue_Type",
+    "Venue_Setting",
+    "Venue_Area",
+    "Distance_From_PJ_KM",
+    "Seating_Style",
+    "Service_Level"
+  ],
+  "resource_targets": [
+    "Event_Coordinators",
+    "AV_Technicians",
+    "Logistics_Crew",
+    "Safety_Officers",
+    "Chairs",
+    "Tables",
+    "Canopy_Tents",
+    "Sound_Systems",
+    "Stage_Platforms",
+    "LED_Screens"
+  ],
+  "cost_features": [
+    "Event_Type",
+    "Guest_Count",
+    "Month",
+    "Is_Weekend",
+    "Start_Hour",
+    "Duration_Hours",
+    "Is_Peak",
+    "Venue_Type",
+    "Venue_Setting",
+    "Venue_Area",
+    "Distance_From_PJ_KM",
+    "Seating_Style",
+    "Service_Level",
+    "Repeat_Client",
+    "Event_Coordinators",
+    "AV_Technicians",
+    "Logistics_Crew",
+    "Safety_Officers",
+    "Chairs",
+    "Tables",
+    "Canopy_Tents",
+    "Sound_Systems",
+    "Stage_Platforms",
+    "LED_Screens"
+  ],
+  "cost_targets": [
+    "Total_Cost_RM",
+    "Selling_Price_RM"
+  ],
+  "categorical_columns": [
+    "Event_Type",
+    "Venue_Type",
+    "Venue_Setting",
+    "Venue_Area",
+    "Seating_Style",
+    "Service_Level",
+    "Repeat_Client"
+  ],
+  "split_rule": {
+    "train": "2023-10-01 to 2025-10-31",
+    "validation": "2025-11-01 to 2026-03-31",
+    "test": "2026-04-01 to 2026-09-30"
+  }
+}
