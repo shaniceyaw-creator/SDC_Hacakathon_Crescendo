@@ -1,0 +1,12 @@
+{
+  "name": "OpusEvents",
+  "short_name": "OpusEvents",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f8f3",
+  "theme_color": "#287464",
+  "icons": [
+    { "src": "icon-192.png?brand=opus", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png?brand=opus", "sizes": "512x512", "type": "image/png" }
+  ]
+}

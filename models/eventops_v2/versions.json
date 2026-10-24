@@ -1,0 +1,5 @@
+{
+  "python": "3.12.3",
+  "scikit-learn": "1.9.1",
+  "note": "Read from the model file; the RunPod download did not include versions.json."
+}

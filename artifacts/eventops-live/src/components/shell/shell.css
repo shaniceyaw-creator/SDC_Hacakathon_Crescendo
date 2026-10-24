@@ -1,0 +1,64 @@
+/* App frame: sidebar with sections at the top and the signed-in account at the bottom. */
+.eo-shell { grid-template-columns: 248px minmax(0, 1fr); }
+.eo-shell-side {
+  position: sticky; top: 0; height: 100dvh; display: flex; flex-direction: column;
+  background: #edf0e7; border-right: 1px solid var(--eo-line); padding: 28px 18px 18px; z-index: 40;
+}
+.eo-shell-brandrow { display: flex; align-items: center; justify-content: space-between; padding: 0 6px; }
+.eo-shell-close { display: none; border: 0; background: transparent; color: var(--eo-ink); padding: 6px; }
+.eo-shell-rolechip {
+  margin: 14px 6px 0 !important; align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--eo-teal-dark); background: var(--eo-mint); border-radius: 999px; padding: 4px 10px;
+}
+.eo-shell[data-role='worker'] .eo-shell-rolechip { background: var(--eo-amber); color: #7a5418; }
+.eo-shell[data-role='customer'] .eo-shell-rolechip { background: var(--eo-peach); color: #874c32; }
+.eo-shell-nav { display: flex; flex-direction: column; gap: 4px; margin-top: 26px; }
+.eo-shell-nav a {
+  display: flex; align-items: center; gap: 12px; padding: 11px 12px; border-radius: 10px; color: #42564f;
+  text-decoration: none; font-size: 14px; font-weight: 550; transition: background .15s ease, color .15s ease;
+}
+.eo-shell-nav a:hover { background: #e2e8da; color: var(--eo-ink); }
+.eo-shell-nav a[aria-current='page'] { background: var(--eo-teal); color: #fffdf5; box-shadow: 0 6px 16px -10px rgba(27, 93, 79, .9); }
+.eo-shell-user { margin-top: auto; background: var(--eo-paper); border: 1px solid var(--eo-line); border-radius: 14px; padding: 14px; }
+.eo-shell-user-top { display: flex; gap: 11px; align-items: center; min-width: 0; }
+.eo-shell-user-top > div { min-width: 0; }
+.eo-shell-user strong { display: block; font-size: 14px; font-weight: 650; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.eo-shell-user small { display: block; color: var(--eo-muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.eo-shell-avatar {
+  display: grid; place-items: center; flex-shrink: 0; width: 40px; height: 40px; border-radius: 12px;
+  background: linear-gradient(135deg, #f2b48f, #e98a6a); color: #fffdf5; font-weight: 750; font-size: 14px; font-family: 'Manrope', sans-serif;
+}
+.eo-shell[data-role='manager'] .eo-shell-avatar { background: linear-gradient(135deg, #3d8f7c, #1b5d4f); }
+.eo-shell[data-role='worker'] .eo-shell-avatar { background: linear-gradient(135deg, #f0c060, #d99a2b); }
+.eo-shell-avatar.small { width: 34px; height: 34px; border-radius: 10px; font-size: 12px; }
+.eo-shell-user-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.eo-shell-user-actions button {
+  display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 6px; border-radius: 8px;
+  border: 1px solid var(--eo-line); background: #f6f7f1; color: var(--eo-ink); font-size: 12px; font-weight: 600;
+}
+.eo-shell-user-actions button:hover { background: #ecefe5; }
+.eo-shell-main { min-width: 0; display: flex; flex-direction: column; min-height: 100dvh; }
+.eo-shell-content { padding: 32px 40px 48px; min-width: 0; animation: eo-shell-in .25s ease; }
+.eo-shell-notice { margin: 16px 40px 0; }
+.eo-shell-mobilebar { display: none; }
+.eo-shell-scrim { display: none; }
+@keyframes eo-shell-in { from { opacity: 1; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+@media (max-width: 900px) {
+  .eo-shell { grid-template-columns: minmax(0, 1fr); }
+  .eo-shell-side {
+    position: fixed; inset: 0 auto 0 0; width: min(300px, 86vw); transform: translateX(-105%);
+    transition: transform .22s ease; box-shadow: 0 10px 40px rgba(0, 0, 0, .18);
+  }
+  .eo-shell-side.is-open { transform: none; }
+  .eo-shell-close { display: inline-flex; }
+  .eo-shell-scrim { display: block; position: fixed; inset: 0; border: 0; background: rgba(20, 35, 30, .35); z-index: 30; }
+  .eo-shell-mobilebar {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 20;
+    padding: 10px 16px; background: rgba(248, 248, 243, .95); backdrop-filter: blur(6px); border-bottom: 1px solid var(--eo-line);
+  }
+  .eo-shell-mobilebar > button { border: 0; background: transparent; color: var(--eo-ink); padding: 6px; }
+  .eo-shell-mobilebrand { font-size: 19px; }
+  .eo-shell-content { padding: 22px 16px 40px; }
+  .eo-shell-notice { margin: 12px 16px 0; }
+}
