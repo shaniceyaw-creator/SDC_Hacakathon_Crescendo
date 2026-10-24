@@ -258,6 +258,11 @@ between the provisioned Pod and the submitted model.
 | --- | --- | --- |
 | Yaw En Qi | Team leader; add specific project contributions | Add profile |
 | Remaining four members | **TO COMPLETE: names and actual contributions** | Add profiles |
+| **Yaw En Qi** | **Team Leader & Project Manager** — Project coordination, system architecture design, SDG alignment, and overall submission oversight. |
+| **Eason** | **Lead Developer & Systems Engineer** — Full-stack system coding (React 19 frontend, Express 5 API server, Python scikit-learn ML engine, PostgreSQL database) and Replit deployment. |
+| **Henry** | **Media & Pitch Specialist** — Product demonstration video recording, screen walkthroughs, voiceover narration, and video post-production editing. |
+| **Ashley** | **Technical Writer & Documentation Lead** — Preliminary proposal report writing, technical declaration proofing, submission formatting, and README documentation. |
+| **Harry** | **Compliance & Documentation Specialist** — Technical declaration proofing, report submission verification, compliance auditing, and README documentation. |
 
 Member contributions have not been invented. Complete this table before the
 final submission.
