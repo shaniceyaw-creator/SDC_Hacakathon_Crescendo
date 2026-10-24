@@ -20,9 +20,9 @@
 
 | Resource          | Link                                           |
 | ----------------- | ---------------------------------------------- |
-| GitHub Repository | https://github.com/your-username/your-project  |
-| Replit Project    | https://replit.com/@your-username/your-project |
-| Live Demo         | https://your-project.replit.app                |
+| GitHub Repository | [https://github.com/your-username/your-project](https://github.com/shaniceyaw-creator/SDC_Hacakathon_Crescendo)  |
+| Replit Project    | [https://replit.com/@your-username/your-project](https://replit.com/@shaniceyaw/EventOps-Streamlit-Planner) |
+| Live Demo         | [https://your-project.replit.app](https://opusevent-event-planner.replit.app/opusevents/sign-in)                |
 | RunPod Endpoint   | https://api.runpod.ai/v2/your-endpoint-id      |
 | Slide Deck        | https://example.com/slides                     |
 | Demo Video        | https://example.com/demo-video                 |
