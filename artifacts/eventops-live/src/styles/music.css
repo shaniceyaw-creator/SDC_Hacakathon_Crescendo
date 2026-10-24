@@ -1,0 +1,8 @@
+/* Light musical texture: faint staff lines and notes behind every page. */
+.eo-shell-main { position: relative; isolation: isolate; }
+.eo-shell-main::before {
+  content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .07;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='520' height='260' viewBox='0 0 520 260' fill='none' stroke='%231b5d4f' stroke-width='1'><path d='M0 60h520M0 70h520M0 80h520M0 90h520M0 100h520M0 170h520M0 180h520M0 190h520M0 200h520M0 210h520'/><g fill='%231b5d4f' stroke='none'><ellipse cx='110' cy='95' rx='7' ry='5'/><rect x='116' y='55' width='2' height='40'/><ellipse cx='210' cy='75' rx='7' ry='5'/><rect x='216' y='38' width='2' height='37'/><ellipse cx='330' cy='205' rx='7' ry='5'/><rect x='336' y='168' width='2' height='37'/><ellipse cx='430' cy='185' rx='7' ry='5'/><rect x='436' y='148' width='2' height='37'/><rect x='216' y='38' width='24' height='4'/></g></svg>");
+  background-size: 520px 260px;
+}
+.eo-shell-content { position: relative; z-index: 1; }

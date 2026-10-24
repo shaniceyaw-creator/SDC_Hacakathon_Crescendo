@@ -1,0 +1,25 @@
+.ab-intro { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; align-content: center; gap: 18px; background: #173f36; color: #fffdf5; animation: ab-out .5s ease 2.2s forwards; }
+.ab-intro .eo-brandmark { animation: ab-pop .7s cubic-bezier(.2, .9, .3, 1.2) both; }
+.ab-intro-word { font: 800 34px 'Manrope', sans-serif; letter-spacing: -1px; animation: ab-rise .6s ease .6s both; }
+.ab-intro-word i { font-style: normal; color: #f4b860; }
+.ab-skip { position: absolute; right: 20px; bottom: 20px; background: transparent; color: #fffdf5; border: 1px solid #fffdf577; border-radius: 999px; padding: 8px 16px; font: 600 13px 'DM Sans', sans-serif; cursor: pointer; }
+.ab-skip:hover, .ab-skip:focus-visible { background: #fffdf522; outline: 2px solid #f4b860; }
+.ab-page { animation: ab-rise .7s ease both; }
+.ab-hero2 { text-align: center; padding: 40px 8px 24px; color: var(--eo-ink); display: grid; justify-items: center; gap: 10px; }
+.ab-hero2 h1 { font: 800 clamp(40px, 8vw, 72px)/1 'Manrope', sans-serif; letter-spacing: -2px; margin: 8px 0 0; color: #1b5d4f; }
+.ab-hero2 .ab-sdc { font-size: 15px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--eo-muted); margin: 0; }
+.ab-hero2 .ab-lede { max-width: 760px; font-size: 16px; line-height: 1.8; margin-top: 12px; }
+.ab-lede p + p { margin-top: 16px; }
+.ab-lede strong { color: #f4b860; font-weight: 800; }
+.ab-powered { display: grid; justify-items: center; gap: 18px; padding: 28px 16px; background: var(--eo-paper); border: 1px solid var(--eo-line); border-radius: 20px; }
+.ab-powered > span { font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--eo-muted); }
+.ab-logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 22px 48px; }
+.ab-logos img { height: 34px; width: auto; display: block; }
+.ab-logos .ab-orbyte { height: 56px; }
+.ab-logos a { display: grid; place-items: center; padding: 8px; border-radius: 10px; transition: transform .18s ease; }
+.ab-logos a:hover { transform: translateY(-3px); }
+.ab-logos a:focus-visible { outline: 3px solid var(--eo-teal); outline-offset: 4px; }
+@keyframes ab-pop { from { transform: scale(.5); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes ab-rise { from { transform: translateY(14px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes ab-out { to { opacity: 0; visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) { .ab-intro, .ab-page, .ab-intro * { animation: none !important; } .ab-logos a { transition: none; } }

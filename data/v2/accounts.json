@@ -1,0 +1,36 @@
+[
+  {
+    "id": "MG-01",
+    "role": "manager",
+    "name": "Lim Wei Han",
+    "title": "Operations Manager"
+  },
+  {
+    "id": "WK-S07",
+    "role": "worker",
+    "name": "Farid Ismail",
+    "title": "Logistics Crew",
+    "staff_id": "S07"
+  },
+  {
+    "id": "WK-S04",
+    "role": "worker",
+    "name": "Arun Krishnan",
+    "title": "AV Technician",
+    "staff_id": "S04"
+  },
+  {
+    "id": "CU-01",
+    "role": "customer",
+    "name": "Amirah Teo",
+    "title": "Saujana Murni Properties Sdn Bhd",
+    "client_id": "CL-018"
+  },
+  {
+    "id": "CU-02",
+    "role": "customer",
+    "name": "Priya Nair",
+    "title": "Private customer",
+    "client_id": "CL-400"
+  }
+]
