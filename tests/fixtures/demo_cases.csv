@@ -1,9 +1,0 @@
-Case_ID,Description,Start_DateTime,End_DateTime,Required_Logistics,Required_Coordinators,Required_AV,Required_Safety,Total_Crew_Required,Expected_Available_FullTime,Expected_Assignable_FullTime,Expected_PartTimers_Required,Expected_Role_Shortages
-CASE-01,Normal event: enough staff and all broad roles,2026-10-17 08:00,2026-10-17 18:00,4,2,1,1,8,12,8,0,Logistics Crew=0;Event Coordinator=0;AV Technician=0;Safety Coordinator=0
-CASE-02,"Peak conflict: leave, parallel booking and weekly-hour cap",2026-10-24 08:00,2026-10-24 18:00,7,2,2,1,12,5,5,7,Logistics Crew=4;Event Coordinator=1;AV Technician=2;Safety Coordinator=0
-CASE-03,Enough headcount but no eligible AV technician,2026-10-24 08:00,2026-10-24 16:00,3,1,1,1,6,6,5,1,Logistics Crew=0;Event Coordinator=0;AV Technician=1;Safety Coordinator=0
-CASE-04,Pending/rejected leave and cancelled booking do not block,2026-10-28 08:00,2026-10-28 18:00,4,2,1,1,8,12,8,0,Logistics Crew=0;Event Coordinator=0;AV Technician=0;Safety Coordinator=0
-CASE-05,Booking ends exactly at new shift start: no overlap,2026-10-24 18:00,2026-10-24 22:00,2,1,1,0,4,9,4,0,Logistics Crew=0;Event Coordinator=0;AV Technician=0;Safety Coordinator=0
-CASE-06,Overnight shift crosses Monday: split weekly hours,2026-10-25 22:00,2026-10-26 04:00,2,0,0,0,2,11,2,0,Logistics Crew=0;Event Coordinator=0;AV Technician=0;Safety Coordinator=0
-CASE-07,Sunday shift stays in current Monday-Sunday week,2026-10-25 12:00,2026-10-25 22:00,4,2,1,1,8,10,8,0,Logistics Crew=0;Event Coordinator=0;AV Technician=0;Safety Coordinator=0
-CASE-08,Year boundary: approved leave continues into January,2026-12-31 20:00,2027-01-01 04:00,4,2,1,1,8,11,8,0,Logistics Crew=0;Event Coordinator=0;AV Technician=0;Safety Coordinator=0
