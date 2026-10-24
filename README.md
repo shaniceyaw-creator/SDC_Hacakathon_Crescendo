@@ -258,12 +258,20 @@ between the provisioned Pod and the submitted model.
   * *Learning*: Integrated Replit App Storage (Google Cloud Storage SDK) with Replit OIDC/PKCE identity checks to gate receipt file downloads behind authenticated sessions without exposing public bucket URLs.
 ## Future Improvements
 
-- [ ] Validate with permissioned real-company data.
-- [ ] Compare manual and assisted planning on matched scenarios, measuring time,
-  estimation errors and scheduling conflicts.
-- [ ] Implement live Orbyte finance/HR integration.
-- [ ] Strengthen production organisation-level permissions. Demo-role sessions
-  and receipt sign-in are not complete company/event membership control.
+* [ ] **Live Orbyte Ecosystem API Integration**:
+  * Replace static/simulated staff schedule CSVs with live, bi-directional API connections to **Orbyte eLeave**, **Orbyte Work**, **Orbyte Hiring**, and **Orbyte eOT** for real-time leave synchronization and automated part-timer requisitions.
+
+* [ ] **Enterprise-Grade Authentication & Multi-Tenancy**:
+  * Upgrade from demo role-switching to production OAuth 2.0 / SAML single sign-on, organization-level multi-tenancy, and granular role-based access control (RBAC) for managers, field crew, and clients.
+
+* [ ] **Empirical Validation with Real SME Data**:
+  * Validate and retrain the scikit-learn model pipeline using permissioned real-world historical invoices and labor logs from Malaysian event SMEs, setting up an automated model retraining pipeline as new event records accumulate.
+
+* [ ] **Automated Supplier & Equipment Vendor Connectivity**:
+  * Connect predicted equipment requirements directly to local rental supplier APIs for live inventory availability checks, automated price comparisons, and purchase order generation.
+
+* [ ] **Quantifiable A/B Testing & Efficiency Benchmarking**:
+  * Conduct structured empirical testing comparing traditional spreadsheet planning against OpusEvents to measure exact time saved, reduction in pricing errors, and profit margin preservation during peak festive seasons.
 
 ## Team
 
