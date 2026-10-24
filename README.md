@@ -135,8 +135,7 @@ RunPod training -> exported joblib bundle -> local numerical inference
 
 ## How to Run
 
-### Option 1 — Run on Replit (Recommended)
-
+### Option 1 — Run on Replit 
 1. Import this repository into Replit, preserving hidden files and both
    `.replit-artifact/artifact.toml` manifests.
 2. Use **Node.js 24, pnpm 10 and Python 3.13**. From the repository root:
@@ -184,17 +183,6 @@ RunPod training -> exported joblib bundle -> local numerical inference
 A GitHub import transfers code, not existing database rows, private configuration
 or receipt objects. Per-service `PORT` and `BASE_PATH` settings come from the
 artifact manifests; do not assign one global port to both servers.
-
-### Option 2 — Other Local Environments
-
-The React/API/Python components can be developed separately, but this is not a
-one-command platform-independent package. Full receipt functionality depends on
-Replit App Storage's credential sidecar and the additional Replit sign-in.
-Equivalent storage/authentication setup would be needed elsewhere.
-
-Do **not** follow the organizer template's example `python src/main.py`,
-`pip install -r requirements.txt` or live RunPod endpoint instructions:
-those examples are not this project's architecture.
 
 ### Run Tests
 
