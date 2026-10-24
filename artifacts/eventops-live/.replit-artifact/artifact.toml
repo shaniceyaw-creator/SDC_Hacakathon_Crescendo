@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/opusevents/"
+title = "OpusEvents — Event Planner"
+description = "OpusEvents by team Crescendo: a colourful event-planning workspace with resource estimates, editable event drafts, human approvals, staffing and equipment reservations, procurement requests and an activity log. Uses the existing Python planner and PostgreSQL data."
+version = "1.0.0"
+id = "artifacts/eventops-live"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/opusevents/" ]
+localPort = 20738
+
+[services.development]
+run = "pnpm --filter @workspace/eventops-live run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/eventops-live", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/eventops-live/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20738"
+BASE_PATH = "/opusevents/"
