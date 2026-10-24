@@ -18,7 +18,7 @@
 
 | Resource | Link |
 | --- | --- |
-| GitHub Repository | [SDC_Hacakathon_Crescendo] (https://github.com/shaniceyaw-creator/SDC_Hacakathon_Crescendo) |
+| GitHub Repository | [SDC_Hacakathon_Crescendo](https://github.com/shaniceyaw-creator/SDC_Hacakathon_Crescendo) |
 | Replit Project | [OpusEvents project workspace](https://replit.com/@shaniceyaw/EventOps-Streamlit-Planner) |
 | Live Demo | [Open OpusEvents](https://opusevent-event-planner.replit.app/opusevents/sign-in) |
 | RunPod Endpoint | Not applicable — RunPod was used for training; numerical inference runs locally |
