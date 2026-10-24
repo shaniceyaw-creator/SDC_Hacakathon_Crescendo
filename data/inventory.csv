@@ -1,3 +1,0 @@
-Item_ID,Item_Name,Unit,Quantity_Owned,Quantity_Unavailable,External_Rental_Rate_Per_Unit_24h_RM,Currency,Data_Basis
-EQ-CHAIR,Event Chair,unit,500,20,5.00,MYR,Synthetic starting stock and rental quote assumption
-EQ-TABLE,Event Table,unit,60,2,25.00,MYR,Synthetic starting stock and rental quote assumption
