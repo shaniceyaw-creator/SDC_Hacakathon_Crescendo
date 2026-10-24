@@ -237,12 +237,25 @@ between the provisioned Pod and the submitted model.
 
 ## Challenges & Learnings
 
-- Separating numerical estimation from availability rules and manager approval.
-- Handling multi-day events with daily hours and shifts crossing midnight.
-- Keeping three roles aligned with shared booking and preparation updates.
-- Keeping model history, runtime versions and the company-data story consistent.
-- Distinguishing implemented prototype features from proposed Orbyte integration.
+* **Decoupling Predictive AI from Hard Business Logic**:
+  * *Challenge*: ML models can predict resource and cost requirements, but they shouldn't directly modify financial quotes or database records without human oversight.
+  * *Learning*: Designed a two-stage architecture where scikit-learn regression models act as an advisory engine, while deterministic Python/Express rules enforce strict Orbyte eLeave availability checks, inventory safety minimums, and profit margin guardrails.
 
+* **Managing Complex Multi-Day & Overnight Shifts**:
+  * *Challenge*: Malaysian events (e.g., festive galas, open houses) often span multiple days with daily operating hours and night shifts crossing midnight (e.g., 10 PM to 4 AM).
+  * *Learning*: Implemented stateful scheduling logic in the Express/Python bridge that accurately interprets overnight end times as the following calendar day, preventing scheduling conflicts on worker calendar views.
+
+* **Cross-Runtime Environment & Dependency Consistency**:
+  * *Challenge*: Training models offline on a Cloud GPU (RunPod) using Python 3.12 and scikit-learn, then loading them for live inference inside a Node.js/Express-managed Python 3.13 process on Replit.
+  * *Learning*: Maintained strict version-pinning (`scikit-learn 1.9.1`) and exported lightweight `.joblib` model bundles, enabling fast local CPU inference without requiring an expensive, latency-prone live GPU endpoint.
+
+* **Multi-Role State Synchronization**:
+  * *Challenge*: Keeping Customer booking requests, Manager approval controls, and Worker calendar views perfectly aligned across PostgreSQL, Express API sessions, and React state.
+  * *Learning*: Leveraged typed OpenAPI client contracts (Orval/Zod) and TanStack React Query cache invalidation to ensure real-time status updates across all three user roles.
+
+* **Secure Object Storage & Identity Verification**:
+  * *Challenge*: Allowing expense receipt uploads while maintaining data privacy and security.
+  * *Learning*: Integrated Replit App Storage (Google Cloud Storage SDK) with Replit OIDC/PKCE identity checks to gate receipt file downloads behind authenticated sessions without exposing public bucket URLs.
 ## Future Improvements
 
 - [ ] Validate with permissioned real-company data.
