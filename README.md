@@ -22,8 +22,8 @@
 | Replit Project | [OpusEvents project workspace](https://replit.com/@shaniceyaw/EventOps-Streamlit-Planner) |
 | Live Demo | [Open OpusEvents](https://opusevent-event-planner.replit.app/opusevents/sign-in) |
 | RunPod Endpoint | Not applicable — RunPod was used for training; numerical inference runs locally |
-| Slide Deck | **TO COMPLETE: add the final shareable slide-deck link** |
-| Demo Video | **TO COMPLETE: add the final narrated demonstration link** |
+| Slide Deck |[OpusEvents Slide](https://drive.google.com/file/d/1ftgXTklmCQ6eA1kZDWTZyc5opFF91C9L/view?usp=sharing) |
+| Demo Video |[OpusEvents Pitch Video](https://youtu.be/H76zlr_rQV4?si=HXyChALZRGsAtv1D) |
 
 ## Overview
 
