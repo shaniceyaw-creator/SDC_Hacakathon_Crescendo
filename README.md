@@ -273,7 +273,7 @@ between the provisioned Pod and the submitted model.
 
 | Name | Role / contribution | GitHub |
 | --- | --- | --- |
-| **Yaw En Qi** | **Team Leader & Project Manager** — Project coordination, system architecture design, frontend design, model training, Video demonstration filming and overall submission |
+| **Yaw En Qi** | **Team Leader & Project Manager** — Project coordination, system architecture design, frontend design, model training, Video demonstration filming and overall submission |[@shaniceyaw-creator](https://github.com/shaniceyaw-creator)
 | **Kong Aik Hang** | **Lead Developer & Systems Engineer** — Full-stack system coding mostly focus on backend, technical software implement and Replit deployment. |
 | **Lee Hong Lek** | **Media & Pitch Specialist** — Product demonstration video recording, screen walkthroughs, voiceover narration, and video post-production editing. |
 | **Ashley Cheah Wen Xi** | **Technical Writer & Documentation Lead** — Preliminary proposal report writing, technical declaration proofing, submission formatting, and README documentation. |
