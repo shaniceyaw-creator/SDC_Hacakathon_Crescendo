@@ -274,10 +274,10 @@ between the provisioned Pod and the submitted model.
 | Name | Role / contribution | GitHub |
 | --- | --- | --- |
 | **Yaw En Qi** | **Team Leader & Project Manager** — Project coordination, system architecture design, frontend design, model training, Video demonstration filming and overall submission |[@shaniceyaw-creator](https://github.com/shaniceyaw-creator)
-| **Kong Aik Hang** | **Lead Developer & Systems Engineer** — Full-stack system coding mostly focus on backend, technical software implement and Replit deployment. |
-| **Lee Hong Lek** | **Media & Pitch Specialist** — Product demonstration video recording, screen walkthroughs, voiceover narration, and video post-production editing. |
-| **Ashley Cheah Wen Xi** | **Technical Writer & Documentation Lead** — Preliminary proposal report writing, technical declaration proofing, submission formatting, and README documentation. |
-| **Harry Loo Hoe Yin** | **Compliance & Documentation Specialist** — Technical declaration proofing, report submission verification, compliance auditing, and README documentation. |
+| **Kong Aik Hang** | **Lead Developer & Systems Engineer** — Full-stack system coding mostly focus on backend, technical software implement and Replit deployment. | [@easonkong0909](https://github.com/easonkong0909)
+| **Lee Hong Lek** | **Media & Pitch Specialist** — Product demonstration video recording, screen walkthroughs, voiceover narration, and video post-production editing. | [@5522hlee](https://github.com/5522hlee)
+| **Ashley Cheah Wen Xi** | **Technical Writer & Documentation Lead** — Preliminary proposal report writing, technical declaration proofing, submission formatting, and README documentation. |  [@Ashcwx](https://github.com/Ashcwx)
+| **Harry Loo Hoe Yin** | **Compliance & Documentation Specialist** — Technical declaration proofing, report submission verification, compliance auditing, and README documentation. | [@DARKSPIDER23](https://github.com/DARKSPIDER23)
 
 ## License
 
